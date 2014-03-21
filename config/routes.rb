@@ -3,19 +3,6 @@ Bootstrapstore::Application.routes.draw do
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-Running `rake routes` attached to terminal... up, run.4772
-      Prefix Verb   URI Pattern                  Controller#Action
-    products GET    /products(.:format)          products#index
-             POST   /products(.:format)          products#create
- new_product GET    /products/new(.:format)      products#new
-edit_product GET    /products/:id/edit(.:format) products#edit
-     product GET    /products/:id(.:format)      products#show
-             PATCH  /products/:id(.:format)      products#update
-             PUT    /products/:id(.:format)      products#update
-             DELETE /products/:id(.:format)      products#destroy
-        root GET    /                            products#new
-             GET    /products/:id(.:format)      catalog#view
-psyfog@psyfog-dev:~/rails_apps/bootstrapstore$ 
 
   # You can have the root of your site routed with "root"
   root 'products#index'
