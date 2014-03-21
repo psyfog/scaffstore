@@ -4,7 +4,7 @@ gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) support
 gem "twitter-bootstrap-rails"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
-
+gem 'rails_12factor'
 # Use PG (4Heroku) as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
